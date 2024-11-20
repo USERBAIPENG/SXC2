@@ -239,4 +239,4 @@ uint32_t Inverter::Get_DailyAirCdtConsumption(uint16_t* Ivt_Ro_Data,uint16_t* Iv
 uint32_t Inverter::Get_DailyElseConsumption(uint16_t* Ivt_Ro_Data,uint16_t* Ivt_Rw_Data) const
 {//在整理数据函数Test_Dispalay_var里计算，在这直接使用了，不合乎规范
     return (Ivt_Ro_Data[33]<<16)+Ivt_Ro_Data[34];
-} 
+}
