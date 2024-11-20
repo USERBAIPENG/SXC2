@@ -1,0 +1,1 @@
+2024.11.20 该版类函数删去传参，增加了一些注释，模块化main.cpp RS485interface.cpp RS485interface.h
